@@ -1,0 +1,53 @@
+.main {
+    background-image: url("fikri-rasyid-OG-UiZB9xMg-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 75px 0px;
+}
+
+.form-box {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(30px);
+    border-radius: 20px;
+    border: 1px solid white;
+    position: right;
+}
+
+.form-box input {
+    border-radius: 10px;
+}
+
+.form-box input:focus {
+    box-shadow: 0 0 0;
+    border: 1px solid red;
+}
+
+.form-box select {
+    border-radius: 10px;
+}
+
+.form-box select:focus {
+    box-shadow: 0 0 0;
+    border: 1px solid red;
+}
+
+.input-group-text {
+    border-radius: 10px;
+}
+
+.register-btn {
+    background-image: linear-gradient(to right, #63118b, #f80f88, #f80f88);
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+
+.link {
+    text-decoration: none;
+    color: #63118b;
+}
+
+.link:hover {
+    color: #631768;
+}

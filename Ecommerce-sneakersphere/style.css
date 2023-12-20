@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.bg-img-1 {
+  background-image: url(assets/slide.jpg);
+}
+
+.bg-img-2 {
+  background-image: url(assets/nike1Slide.jpg);
+}
+
+.bg-img-3 {
+  background-image: url(assets/slide3.jpg);
+}
+
+.carousel-image {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.card111{
+  transition: all 0.3s;
+
+}
+.card111:hover{
+  transform: scale(1.15);
+}
+btn{
+  justify-content: space-between;
+  justify-content: right;
+  align-items:start;
+}
